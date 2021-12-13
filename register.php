@@ -1,8 +1,7 @@
 <?php
-
 session_start();
 
-require_once 'connection.php';
+require_once "connection.php";
 
 if (isset($_POST['submit'])) {
     $id = $_POST['id'];
@@ -12,7 +11,7 @@ if (isset($_POST['submit'])) {
     $lastname = $_POST['lastname'];
     $userlevel = $_POST['userlevel'];
 
-    $user_check = "SELECT * FORM user WHERE username = '$username' LIMIT 1";
+    $user_check = "SELECT * FORM usertbl WHERE username = '$username' LIMIT 1";
     $result = mysqli_query($conn, $user_check);
     $user = mysqli_fetch_assoc($result);
 
@@ -21,7 +20,7 @@ if (isset($_POST['submit'])) {
     } else {
         $passwordenc = md5($password);
 
-        $query = "INSERT INTO user (id, username, password, firstname, lastname, userlevel) 
+        $query = "INSERT INTO usertbl (id, username, password, firstname, lastname, userlevel) 
                     VALUE ('$id', '$username', '$passwordenc', '$firstname', '$lastname', '$userlevel')";
 
         $result = mysqli_query($conn, $query);
