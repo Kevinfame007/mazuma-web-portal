@@ -1,6 +1,6 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "mazuma-web-portal");
-    if ($conn) {
+    $conn = mysqli_connect("localhost", "root", "", "mazumawebportal");
+    if (!$conn) {
         die("Failed to connect to database " . mysqli_error($conn));
     }
 ?>
