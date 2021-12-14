@@ -36,25 +36,28 @@
                         <a class="nav-link active" aria-current="page" href="index.html">หน้าหลัก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register_news.php">การรับสมัคร</a>
+                        <a class="nav-link" href="#">การรับสมัคร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ระบบสารสนเทศออนไลน์</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            หน่วยงาน
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">หน่วยที่ 1</a></li>
+                            <li><a class="dropdown-item" href="#">หน่วยที่ 2</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#">เบอร์ติดต่อภายใน</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ปฏิทินกิจกรรม</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
