@@ -71,8 +71,8 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="" class="d-block w-100" alt="...">
+          <div class="carousel-item active" width="240" height="">
+            <img src="images\5-Best-Free-and-Open-Source-Inventory-Management-Software.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="..." class="d-block w-100" alt="...">
