@@ -1,5 +1,12 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
 .carousel-item {
-    height: 200px;
+    height: 400px;
 }
 
 .carousel-image-1 {
@@ -23,7 +30,7 @@
     background-size: cover;
 }
 
-button {
+.button {
     color: #9FE2BF;
 }
 
@@ -54,7 +61,16 @@ button {
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   }
 
-  .dropdown:hover .dropdown-menu {
+ .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+ }
+
+  .card-image-1 {
+     background-image: url('images/pngeegg.png');
+ }
+
+ .card-image-size {
+     height: fit-content;
+     width: fit-content;
  }
