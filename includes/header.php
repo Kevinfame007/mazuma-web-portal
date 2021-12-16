@@ -15,7 +15,7 @@
                     <a class="nav-link" href="register_news.php">การรับสมัคร</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="online_system.php">ระบบสารสนเทศออนไลน์</a>
+                    <a class="nav-link" href="online_information_system.php">ระบบสารสนเทศออนไลน์</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,10 +27,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">เบอร์ติดต่อภายใน</a>
+                    <a class="nav-link" href="extention_contact.php">เบอร์ติดต่อภายใน</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ปฏิทินกิจกรรม</a>
+                    <a class="nav-link" href="event_calendar.php">ปฏิทินกิจกรรม</a>
                 </li>
             </ul>
         </div>
