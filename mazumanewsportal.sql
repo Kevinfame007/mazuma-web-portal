@@ -27,7 +27,7 @@ SET time_zone = "+07:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `newsportal`
+-- Database: `mazumanewsportal`
 --
 
 -- --------------------------------------------------------
@@ -73,7 +73,7 @@ CREATE TABLE `tblhr` (
 -- Dumping data for table `tbladmin`
 --
 
-INSERT INTO `tblhr` (`id`, `AdminUserName`, `AdminPassword`, `AdminEmailId`, `Is_Active`, `CreationDate`, `UpdationDate`) VALUES
+INSERT INTO `tblhr` (`id`, `HrUserName`, `HrPassword`, `HrEmailId`, `Is_Active`, `CreationDate`, `UpdationDate`) VALUES
 (1, 'admin', '$2y$12$i4LMfeFPQpGSNPTaccIkKuwxAkJ4PhBr3JND7FpXwWFjRvchQn17C', 'kevinfame007@gmail.com', 1, '2021-12-16 16:28:00', '2021-12-17 18:21:07');
 
 -- --------------------------------------------------------
