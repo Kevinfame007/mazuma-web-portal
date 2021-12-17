@@ -56,6 +56,52 @@ INSERT INTO `tbladmin` (`id`, `AdminUserName`, `AdminPassword`, `AdminEmailId`, 
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbladmin`
+--
+
+CREATE TABLE `tblhr` (
+  `id` int(11) NOT NULL,
+  `HrUserName` varchar(255) NOT NULL,
+  `HrPassword` varchar(255) NOT NULL,
+  `HrEmailId` varchar(255) NOT NULL,
+  `Is_Active` int(11) NOT NULL,
+  `CreationDate` timestamp NOT NULL DEFAULT current_timestamp(),
+  `UpdationDate` timestamp NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbladmin`
+--
+
+INSERT INTO `tblhr` (`id`, `AdminUserName`, `AdminPassword`, `AdminEmailId`, `Is_Active`, `CreationDate`, `UpdationDate`) VALUES
+(1, 'admin', '$2y$12$i4LMfeFPQpGSNPTaccIkKuwxAkJ4PhBr3JND7FpXwWFjRvchQn17C', 'kevinfame007@gmail.com', 1, '2021-12-16 16:28:00', '2021-12-17 18:21:07');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbladmin`
+--
+
+CREATE TABLE `tbl` (
+  `id` int(11) NOT NULL,
+  `AdminUserName` varchar(255) NOT NULL,
+  `AdminPassword` varchar(255) NOT NULL,
+  `AdminEmailId` varchar(255) NOT NULL,
+  `Is_Active` int(11) NOT NULL,
+  `CreationDate` timestamp NOT NULL DEFAULT current_timestamp(),
+  `UpdationDate` timestamp NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbladmin`
+--
+
+INSERT INTO `tbladmin` (`id`, `AdminUserName`, `AdminPassword`, `AdminEmailId`, `Is_Active`, `CreationDate`, `UpdationDate`) VALUES
+(1, 'admin', '$2y$12$i4LMfeFPQpGSNPTaccIkKuwxAkJ4PhBr3JND7FpXwWFjRvchQn17C', 'kevinfame007@gmail.com', 1, '2021-12-16 16:28:00', '2021-12-17 18:21:07');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tblcategory`
 --
 
