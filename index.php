@@ -22,10 +22,12 @@
     <!-- Navigation -->
     <?php include('includes/header.php'); ?>
 
+    <!-- Container Page Content -->
     <div class="container">
-        <div class="row" style="margin-top: 4%">
+        <!-- start row -->
+        <div class="row bg-warning pb-3">
             <!-- ไลด์ข่าวสำคัญ -->
-            <div class="col bg-warning pb-3">
+            <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -52,28 +54,32 @@
             </div>
             <!-- จบไลด์ข่าวสำคัญ -->
         </div>
+        <!-- end row -->
 
+        <!-- start row -->
         <div class="row">
-            <!-- พนักงาน -->
+            <!-- start colum พนักงาน -->
             <div class="col-md-3 pt-3 ps-4 pb-3 bg-primary">
                 <div class="card card-image-size" style="max-width: 18rem;">
                     <div class="card-header">
                         <h5 class="card-title">พนักงานใหม่</h5>
                     </div>
-                    <img src="images/pngegg.png" class="card-img-top " alt="...">
+                    <img src="images/pngegg.png" class="card-img-top">
                     <hr>
                     <div class="card-body">
                         <p class="card-text">ชื่อ-นามสกุล ชื่อเล่น
                     </div>
                 </div>
             </div>
-            <!-- จบพนักงานใหม่ -->
+            <!-- end colum จบพนักงานใหม่ -->
 
-            <div class="col ps-4 pt-3 pe-4 pb-3 bg-success">
+            <!-- start colum -->
+            <div class="col mb-4 bg-success">
                 <div class="card">
                     <div class="card-header text-center">
                         <h4>กระดานข่าว</h4>
                     </div>
+                    <img src="images/pngegg.png" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -84,9 +90,11 @@
                     </div>
                 </div>
             </div>
+            <!-- end colum -->
         </div>
+        <!-- end row -->
     </div>
-
+    <!-- end container end page content -->
 
     <!-- Footer -->
     <?php include('includes/footer.php'); ?>
