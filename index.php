@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+include('includes/config.php');
 ?>
 
 <!doctype html>
@@ -34,7 +35,7 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner ">
+                    <div class="carousel-inner">
                         <div class="carousel-item carousel-image-1 active">
                         </div>
                         <div class="carousel-item carousel-image-2">
@@ -59,31 +60,32 @@
         <!-- start row -->
         <div class="row">
             <!-- start colum พนักงาน -->
-            <div class="col-md-3 pt-3 ps-4 pb-3 bg-primary">
-                <div class="card card-image-size" style="max-width: 18rem;">
+            <div class="col-md-3 pt-3 ps-3 pb-3 bg-primary">
+                <div class="card" style="max-width: 18rem;">
                     <div class="card-header">
                         <h5 class="card-title">พนักงานใหม่</h5>
                     </div>
                     <img src="images/pngegg.png" class="card-img-top">
                     <hr>
                     <div class="card-body">
-                        <p class="card-text">ชื่อ-นามสกุล ชื่อเล่น
+                        <p class=""></p>
+                        <p class="card-text">ชื่อ-นามสกุล ชื่อเล่น</p>
                     </div>
                 </div>
             </div>
             <!-- end colum จบพนักงานใหม่ -->
 
             <!-- start colum -->
-            <div class="col mb-4 bg-success">
+            <div class="col-md-9 pt-3 pb-3 bg-success">
                 <div class="card">
                     <div class="card-header text-center">
                         <h4>กระดานข่าว</h4>
                     </div>
-                    <img src="images/pngegg.png" class="card-img-top">
+                    <img src="images/5-Best-Free-and-Open-Source-Inventory-Management-Software.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title ">ข่าว mazuma</h5>
+                        <p class="card-text">ข่าว mazuma</p>
+                        <a href="#" class="btn btn-primary">ข่าว mazuma</a>
                     </div>
                     <div class="card-footer text-muted">
                         2 days ago
