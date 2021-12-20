@@ -1,6 +1,7 @@
 @font-face {
   font-family: Prompt-Regular;
   src: url(fonts/Prompt/Prompt-Regular.woff);
+ 
 }
 
 @font-face {
@@ -8,59 +9,41 @@
   src: url(fonts/Prompt/Prompt-Bold.woff);
 }
 
-@font-face {
-  font-family: Sarabun-Regular;
-  src: url(fonts/Sarabun/Sarabun-Regular.woff);
-}
-
-@font-face {
-  font-family: Sarabun-Bold;
-  src: url(fonts/Sarabun/Sarabun-Bold.woff);
-}
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body{
+  padding-top: 60px;
+}
 
 .button {
   color: #9fe2bf;
 }
 
-.Sarabun-Regular{
-  font-family: Sarabun-Regular;
+h1 {
+  font-family: Prompt-Bold;
 }
-
-.Sarabun-Bold{
-  font-family: Sarabun-Bold;
+h2 {
+  font-family: Prompt-Bold;
 }
-
-.Prompt-Regular{
-  font-family: Prompt-Regular;
+h3 {
+  font-family: Prompt-Bold;
 }
-
-.Prompt-Bold{
+h4 {
+  font-family: Prompt-Bold;
+}
+h5 {
+  font-family: Prompt-Bold;
+}
+h6 {
   font-family: Prompt-Bold;
 }
 
-div{
+body {
   font-family: Prompt-Regular;
 }
 
-h1{
-  font-family: Sarabun-Bold;
-}
-h2{
-  font-family: Sarabun-Bold;
-}
-h3{
-  font-family: Sarabun-Bold;
-}
-h4{
-  font-family: Sarabun-Bold;
-}
-h5{
-  font-family: Sarabun-Bold;
-}
-h6{
-  font-family: Sarabun-Bold;
+div {
+  font-family: Prompt-Regular;
 }
 
 .carousel-item {
@@ -157,5 +140,5 @@ h6{
 }
 
 .nav-bg-color {
-  background-color: #D0D3D4;
+  background-color: #d0d3d4;
 }

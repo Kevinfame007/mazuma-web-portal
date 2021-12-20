@@ -16,7 +16,7 @@ include('includes/config.php');
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>หน้าหลัก | HOME PAGE</title>
+    <title>เบอร์ติดต่อภายในฝ่ายบุคคล | HUMAN RESOURCE EXTENSION</title>
 
 </head>
 
@@ -25,9 +25,9 @@ include('includes/config.php');
     <?php include('includes/header.php'); ?>
 
     <!-- Container Page Content -->
-    <div class="container-sm">
+    <div class="container">
         <!-- start row -->
-        <div class="row bg-warning pt-3 pb-3 ps-1 pe-1">
+        <div class="row bg-warning pb-3">
             <!-- ไลด์ข่าวสำคัญ -->
             <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -61,7 +61,7 @@ include('includes/config.php');
         <!-- start row -->
         <div class="row">
             <!-- start colum พนักงาน -->
-            <div class="col-md-3 bg-primary pt-3 ps-3 pb-3">
+            <div class="col-md-3 pt-3 ps-3 pb-3 bg-primary">
                 <div class="card" style="max-width: 18rem;">
                     <div class="card-header">
                         <h5 class="card-title">พนักงานใหม่</h5>
@@ -69,6 +69,7 @@ include('includes/config.php');
                     <img src="images/pngegg.png" class="card-img-top">
                     <hr>
                     <div class="card-body">
+                        <p class=""></p>
                         <p class="card-text">ชื่อ-นามสกุล ชื่อเล่น</p>
                     </div>
                 </div>
@@ -76,14 +77,14 @@ include('includes/config.php');
             <!-- end colum จบพนักงานใหม่ -->
 
             <!-- start colum -->
-            <div class="col-md-9 bg-success pt-3 pb-3 pe-3">
+            <div class="col-md-9 pt-3 pb-3 bg-success">
                 <div class="card">
                     <div class="card-header text-center">
                         <h4>กระดานข่าว</h4>
                     </div>
                     <img src="images/5-Best-Free-and-Open-Source-Inventory-Management-Software.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">ข่าว mazuma</h5>
+                        <h5 class="card-title ">ข่าว mazuma</h5>
                         <p class="card-text">ข่าว mazuma</p>
                         <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                     </div>
@@ -91,6 +92,7 @@ include('includes/config.php');
                         <?php  ?>
                     </div>
                 </div>
+
             </div>
             <!-- end colum -->
         </div>
