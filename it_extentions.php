@@ -92,7 +92,6 @@ include('includes/config.php');
                         <?php  ?>
                     </div>
                 </div>
-
             </div>
             <!-- end colum -->
         </div>

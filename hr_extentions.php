@@ -16,7 +16,7 @@ include('includes/config.php');
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>หน้าหลัก | HOME PAGE</title>
+    <title>เบอร์ติดต่อภายในฝ่ายบุคคล | HUMAN RESOURCE EXTENSION</title>
 
 </head>
 

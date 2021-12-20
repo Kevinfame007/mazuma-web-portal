@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">หน้าหลัก</a>
+                    <a class="nav-link" aria-current="page" href="index.php">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="register_news.php">การรับสมัคร</a>
