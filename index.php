@@ -3,16 +3,18 @@ session_start();
 include('includes/config.php');
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>หน้าหลัก | HOME PAGE</title>
@@ -85,12 +87,13 @@ include('includes/config.php');
                     <div class="card-body">
                         <h5 class="card-title ">ข่าว mazuma</h5>
                         <p class="card-text">ข่าว mazuma</p>
-                        <a href="#" class="btn btn-primary">ข่าว mazuma</a>
+                        <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
                     </div>
                     <div class="card-footer text-muted">
-                        2 days ago
+                        <?php  ?>
                     </div>
                 </div>
+
             </div>
             <!-- end colum -->
         </div>
