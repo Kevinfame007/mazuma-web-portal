@@ -25,9 +25,9 @@ include('includes/config.php');
     <?php include('includes/header.php'); ?>
 
     <!-- Container Page Content -->
-    <div class="container">
+    <div class="container-sm">
         <!-- start row -->
-        <div class="row bg-warning pb-3">
+        <div class="row bg-warning pt-3 pb-3 ps-1 pe-1">
             <!-- ไลด์ข่าวสำคัญ -->
             <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -61,7 +61,7 @@ include('includes/config.php');
         <!-- start row -->
         <div class="row">
             <!-- start colum พนักงาน -->
-            <div class="col-md-3 pt-3 ps-3 pb-3 bg-primary">
+            <div class="col-md-3 bg-primary pt-3 ps-3 pb-3">
                 <div class="card" style="max-width: 18rem;">
                     <div class="card-header">
                         <h5 class="card-title">พนักงานใหม่</h5>
@@ -76,7 +76,7 @@ include('includes/config.php');
             <!-- end colum จบพนักงานใหม่ -->
 
             <!-- start colum -->
-            <div class="col-md-9 pt-3 pb-3 bg-success">
+            <div class="col-md-9 bg-success pt-3 pb-3 pe-3">
                 <div class="card">
                     <div class="card-header text-center">
                         <h4>กระดานข่าว</h4>
