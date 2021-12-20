@@ -46,8 +46,8 @@ if (isset($_POST['login'])) {
 <body class="">
 
     <section>
-        <div class="">
-            
+        <div class="row">
+
         </div>
     </section>
 
