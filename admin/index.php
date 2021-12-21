@@ -1,31 +1,7 @@
 <?php
 session_start();
-//Database Configuration File
+// Database Config File
 include('includes/config.php');
-//error_reporting(0);
-if (isset($_POST['login'])) {
-
-    // Getting username/ email and password
-    $uname = $_POST['username'];
-    $password = $_POST['password'];
-    // Fetch data from database on the basis of username/email and password
-    $sql = mysqli_query($con, "SELECT AdminUserName,AdminEmailId,AdminPassword FROM tbladmin WHERE (AdminUserName='$uname' || AdminEmailId='$uname')");
-    $num = mysqli_fetch_array($sql);
-    if ($num > 0) {
-        $hashpassword = $num['AdminPassword']; // Hashed password fething from database
-        //verifying Password
-        if (password_verify($password, $hashpassword)) {
-            $_SESSION['login'] = $_POST['username'];
-            echo "<script type='text/javascript'> document.location = 'dashboard.php'; </script>";
-        } else {
-            echo "<script>alert('Wrong Password');</script>";
-        }
-    }
-    //if username or email not found in database
-    else {
-        echo "<script>alert('User not registered with us');</script>";
-    }
-}
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +12,7 @@ if (isset($_POST['login'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAZUMA PORTAL | ADMINISTRATOR PANEL</title>
+    <title>MAZUMA PORTAL | ADMINISTRATOR LOGIN</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -45,14 +21,28 @@ if (isset($_POST['login'])) {
 
 <body class="">
 
+    <!-- START ADMIN LOGIN -->
     <section>
-        <div class="row">
-
+        <div class="container" style="padding-top: 100px;">
+            <form>
+                <h1>ADMIN LOGIN</h1>
+                <hr>
+                <div class="md-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="md-3 pb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </section>
+    <!-- END ADMIN LOGIN -->
 
-    <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
 
 </body>
 
