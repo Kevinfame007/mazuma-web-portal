@@ -142,3 +142,7 @@ div {
 .nav-bg-color {
   background-color: #d0d3d4;
 }
+
+.container-login {
+  padding-top: 50px;
+}
