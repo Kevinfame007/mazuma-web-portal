@@ -25,9 +25,9 @@ include('includes/config.php');
     <?php include('includes/header.php'); ?>
 
     <!-- Container Page Content -->
-    <div class="container-sm">
+    <div class="container-sm pt-4">
         <!-- start row -->
-        <div class="row bg-warning pt-3 pb-3 ps-1 pe-1">
+        <div class="row bg-warning pt-3 pb-3 ps-1 pe-1 ">
             <!-- ไลด์ข่าวสำคัญ -->
             <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

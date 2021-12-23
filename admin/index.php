@@ -17,29 +17,35 @@ include('includes/config.php');
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <style>
+        
+    </style>
+
 </head>
 
-<body class="">
+<body class="bg-success bg-opacity-75">
 
     <!-- START ADMIN LOGIN -->
     <section>
-        <div class="container" style="padding-top: 100px;">
-            <form>
-                <h1>ADMIN LOGIN</h1>
+        <div class="container bg-light pb-3 shadow-lg p-3 mb-5 rounded-3" style="padding-top: 50px; margin-top: 200px; width: 700px;">
+            <form class="p-3">
+                <img src="images/logo.png" class="pt-5 mx-auto d-block" style="width: 500px; padding-bottom: 50px;">
+                <center><h1>ADMIN LOGIN</h1></center>
                 <hr>
-                <div class="md-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="md-5 pb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username or Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Username or Email">
                 </div>
-                <div class="md-3 pb-3">
+                <div class="md-5 pb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-success">Login</button>
             </form>
         </div>
     </section>
     <!-- END ADMIN LOGIN -->
+    <?php include('includes/footer_admin.php'); ?>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="jquery/jquery-3.6.0.min.js"></script>
