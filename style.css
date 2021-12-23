@@ -1,7 +1,6 @@
 @font-face {
   font-family: Prompt-Regular;
   src: url(fonts/Prompt/Prompt-Regular.woff);
- 
 }
 
 @font-face {
@@ -11,7 +10,7 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 
-body{
+body {
   padding-top: 60px;
 }
 
@@ -145,4 +144,19 @@ div {
 
 .container-login {
   padding-top: 50px;
+}
+
+#rcorners4 {
+  border-radius: 15px;
+  background: #7f807f00;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 8px  blue;
+  margin: 20px;
 }
