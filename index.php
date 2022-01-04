@@ -25,7 +25,7 @@ include('includes/config.php');
     <?php include('includes/header.php'); ?>
 
     <!-- Container Page Content -->
-    <div class="container-sm pt-4">
+    <div class="container-sm pt-3 pb-3">
         <!-- start row -->
         <div class="row bg-light shadow pt-3 pb-3 ps-1 pe-1 ">
             <!-- ไลด์ข่าวสำคัญ -->
