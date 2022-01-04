@@ -34,7 +34,7 @@ include('includes/config.php');
                 <hr>
                 <div class="md-5 pb-3">
                     <label for="exampleInputEmail1" class="form-label">Username or Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Username or Email">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Username or Email">
                 </div>
                 <div class="md-5 pb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
