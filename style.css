@@ -160,3 +160,9 @@ shadow {
   box-shadow: 5px 5px 5px 8px  blue;
   margin: 20px;
 }
+
+.admin-register-form {
+  padding-top: 50px;
+  margin-top: 200px;
+  width: auto;
+}
