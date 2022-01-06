@@ -14,11 +14,11 @@ include('includes/config.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAZUMA PORTAL | ADMINISTRATOR LOGIN</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        
+
     </style>
 
 </head>
@@ -30,20 +30,27 @@ include('includes/config.php');
         <div class="container bg-light pb-3 shadow-lg p-3 mb-5 rounded-3" style="padding-top: 50px; margin-top: 200px; width: 700px;">
             <form class="p-3">
                 <img src="images/logo.png" class="pt-5 mx-auto d-block" style="width: 500px; padding-bottom: 50px;">
-                <center><h1>ADMIN LOGIN</h1></center>
+                <center>
+                    <h1>ADMIN LOGIN</h1>
+                </center>
                 <hr>
                 <div class="md-5 pb-3">
-                    <label for="exampleInputEmail1" class="form-label">Username or Email</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Username or Email">
+                    <label for="useroremail" class="form-label">Username or Email</label>
+                    <input type="text" class="form-control" id="useroremail" placeholder="Enter Your Username or Email" require>
                 </div>
                 <div class="md-5 pb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Your Password" require>
                 </div>
                 <button type="submit" class="btn btn-success">Login</button>
+                <a href="register_admin.php">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </a>
+
             </form>
         </div>
     </section>
+
     <!-- END ADMIN LOGIN -->
     <?php include('includes/footer_admin.php'); ?>
 
